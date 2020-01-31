@@ -1,0 +1,4 @@
+FLASK_APP=backend
+FLASK_ENV = development
+FLASK_DEBUG=1
+POSTGRES_URI=postgresql://yourusername:yourpassword@localhost/memories

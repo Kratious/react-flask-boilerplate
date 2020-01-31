@@ -1,0 +1,16 @@
+{
+  "name": "react-flask-boilerplate",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Kratious <semjinghan@gmail.com>, Mohd Aslam <julietohara@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.0.2"
+  },
+  "scripts": {
+    "start": "concurrently \"yarn frontend\" \"yarn backend\"",
+    "frontend": "cd frontend && yarn start",
+    "backend": "flask run"
+  },
+  "dependencies": {}
+}

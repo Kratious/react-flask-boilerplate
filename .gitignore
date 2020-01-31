@@ -1,0 +1,25 @@
+venv/
+node_modules/
+
+# flask
+.flaskenv
+backend/*.pyc
+backend/__pycache__/
+
+backend/instance/
+
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+
+backend/dist/
+backend/build/
+backend/*.egg-info/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*

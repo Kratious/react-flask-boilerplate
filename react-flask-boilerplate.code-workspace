@@ -1,0 +1,35 @@
+{
+  "folders": [{
+      "name": "Frontend",
+      "path": "frontend"
+    },
+    {
+      "name": "Backend",
+      "path": "backend"
+    },
+    {
+      "name": "Global",
+      "path": "."
+    }
+  ],
+  "extensions": {
+    "recommendations": ["esbenp.prettier-vscode", "bradlc.vscode-tailwindcss", "stylelint.vscode-stylelint"]
+  },
+  "settings": {
+    "files.exclude": {
+      "backend/**": true,
+      "frontend/**": true
+    },
+    //Check if jest is enabled on VSCode as an extension
+    "jest.disabledWorkspaceFolders": ["Backend", "Global"],
+    "search.exclude": {
+      "**/build": true,
+      "**/logs": true,
+      "**/yarn*": true,
+      "**/node_modules": true,
+      "**/tmp": true
+    },
+    "css.validate": false,
+    "stylelint.enable": true,
+  }
+}
